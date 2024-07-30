@@ -1,5 +1,9 @@
 /* Define various shades of lighter black */
 
+body {
+    background-color: rgb(189, 189, 189);
+}
+
 /* Charcoal */
 .charcoal {
     background-color: #36454F; /* Charcoal color */

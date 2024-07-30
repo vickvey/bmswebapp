@@ -2,40 +2,59 @@
 {% load static %}
 
 {% block content %}
-    <h1 class="center-align">Welcome to ABC bank management system!</h1>
+<div class="container">
+    <h1 class="center-align">Welcome to ABC Bank Management System!</h1>
 
     <div class="row">
-      <div class="col s12 m6">
-        <div class="card blue-grey darken-1">
-          <div class="card-content white-text">
-            <span class="card-title center-align">Create New Account</span>
-            <p>Create an account with us to unlock a world of convenience and personalized services. Enjoy quick and easy access to all our features with a simple registration process. Join our community today and experience the benefits of having everything you need at your fingertips!</p>
-          </div>
-          <div class="card-action">
-            <a href="#">Click here to create a new account</a>
-          </div>
+        <!-- Options Card (Left Column) -->
+        <div class="col s12 m6">
+            <div class="card charcoal">
+                <div class="card-content white-text">
+                    <span class="card-title center-align">Account Options</span>
+                    <div class="row">
+                        <div class="col s12">
+                            <p>Create an account with us to unlock a world of convenience and personalized services. Enjoy quick and easy access to all our features with a simple registration process. Join our community today and experience the benefits of having everything you need at your fingertips!</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s6 center-align">
+                            <a href="#" class="btn waves-effect waves-light">Create New Account</a>
+                        </div>
+                        <div class="col s6 center-align">
+                            <a href="#" class="btn waves-effect waves-light">Login to Account</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
 
-      <div class="col s12 m6">
-        <div class="card blue-grey darken-1">
-          <div class="card-content white-text">
-            <span class="card-title center-align">Login to your account</span>
-            <p>Create an account with us to unlock a world of convenience and personalized services. Enjoy quick and easy access to all our features with a simple registration process. Join our community today and experience the benefits of having everything you need at your fingertips!</p>
-          </div>
-          <div class="card-action">
-            <a href="#">Click here to create a new account</a>
-          </div>
+        <!-- Updates Section (Right Column) -->
+        <div class="col s12 m6">
+            <div class="card charcoal">
+                <div class="card-content white-text">
+                    <span class="card-title center-align">Latest Updates</span>
+                    <div class="updates-section" style="max-height: 400px; overflow-y: auto;">
+                        <ul class="collection black-text">
+                            <li class="collection-item">Update 1: We have introduced a new feature...</li>
+                            <li class="collection-item">Update 2: Our branch timings have changed...</li>
+                            <li class="collection-item">Update 3: We are launching a new mobile app...</li>
+                            <li class="collection-item">Update 4: Maintenance alert: Our services will be...</li>
+                            <li class="collection-item">Update 5: New savings account interest rates...</li>
+                            <!-- Add more updates as needed -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-{% endblock content %}
+</div>
+{% endblock %}
 
 {% block script %}
-  <script>
-    document.addEventListener("DOMContentLoaded", function(){
-      var elems = document.querySelectorAll(."materialboxed")
-      var instances = M.Materialbox.init(elems);
-    })
-  </script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var elems = document.querySelectorAll(".materialboxed");
+        var instances = M.Materialbox.init(elems);
+    });
+</script>
 {% endblock %}

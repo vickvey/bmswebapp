@@ -4,9 +4,9 @@
 
 <nav>
   <div class="nav-wrapper outer-space">
-    <a href="{% url 'index' %}" class="brand-logo">ABC Bank</a>
+    <a href="{% url 'index' %}" class="brand-logo">{{ bank_name }}</a>
     <ul id="nav-mobile" class="right hide-on-med-and-down">
-      <li><a href="{% url 'why' %}">Why ABC?</a></li>
+      <li><a href="{% url 'why' %}">Why to chose {{ bank_name }}?</a></li>
       <li><a href="{% url 'help' %}">Help</a></li>
       <li><a href="{% url 'careers' %}">Careers</a></li>
       <li><a href="{% url 'about_us' %}">About Us</a></li>

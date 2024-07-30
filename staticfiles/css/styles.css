@@ -1,5 +1,9 @@
 /* Define various shades of lighter black */
 
+body {
+    background-color: rgb(189, 189, 189);
+}
+
 /* Charcoal */
 .charcoal {
     background-color: #36454F; /* Charcoal color */
@@ -46,11 +50,4 @@
 .ash-gray {
     background-color: #B2BEB5; /* Ash Gray color */
     color: #000; /* Optional: Black text color for better contrast */
-}
-
-/* styles.css */
-.about-paragraph {
-    font-size: 3rem;  /* Adjust the size as needed */
-    line-height: 1.6;  /* Adjust line height for better readability */
-    margin: 20px 0;  /* Add some margin for spacing */
 }
