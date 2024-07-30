@@ -1,0 +1,16 @@
+{
+    "BANK_NAME": "ABC Bank",
+    
+    "WHY": "ABC Bank is committed to providing exceptional banking services with a focus on customer satisfaction and innovative solutions. Our dedication to transparency and integrity sets us apart in the financial industry.",
+    
+    "ABOUT_US": "Founded in 1990, ABC Bank has grown to become a leading financial institution known for its personalized banking experience and robust financial products. Our mission is to enhance the financial well-being of our customers through a range of banking solutions and services.",
+
+    "HELP": {
+        "DESCRIPTION": "Need assistance? Our customer support team is available 24/7 to help you with any inquiries or issues you may have.",
+        "CONTACT_EMAIL": "support@abcbank.com",
+        "PHONE": "+1-800-123-4567",
+        "OFFLINE_BRANCH_INFO": "Visit our main branch located at 123 Main Street, Anytown, USA for face-to-face support."
+    },
+
+    "CAREER_INFO": "Join the dynamic team at ABC Bank and be part of an organization that values growth, innovation, and development. We offer a range of career opportunities across various departments and are committed to fostering a supportive and rewarding work environment."
+}

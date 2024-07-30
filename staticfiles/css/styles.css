@@ -1,0 +1,56 @@
+/* Define various shades of lighter black */
+
+/* Charcoal */
+.charcoal {
+    background-color: #36454F; /* Charcoal color */
+    color: #fff; /* Optional: White text color for better contrast */
+}
+
+/* Gunmetal */
+.gunmetal {
+    background-color: #2A2D2E; /* Gunmetal color */
+    color: #fff; /* Optional: White text color for better contrast */
+}
+
+/* Onyx */
+.onyx {
+    background-color: #353839; /* Onyx color */
+    color: #fff; /* Optional: White text color for better contrast */
+}
+
+/* Dark Slate Gray */
+.dark-slate-gray {
+    background-color: #2F4F4F; /* Dark Slate Gray color */
+    color: #fff; /* Optional: White text color for better contrast */
+}
+
+/* Dim Gray */
+.dim-gray {
+    background-color: #696969; /* Dim Gray color */
+    color: #fff; /* Optional: White text color for better contrast */
+}
+
+/* Jet */
+.jet {
+    background-color: #343434; /* Jet color */
+    color: #fff; /* Optional: White text color for better contrast */
+}
+
+/* Outer Space */
+.outer-space {
+    background-color: #2D383A; /* Outer Space color */
+    color: #fff; /* Optional: White text color for better contrast */
+}
+
+/* Ash Gray */
+.ash-gray {
+    background-color: #B2BEB5; /* Ash Gray color */
+    color: #000; /* Optional: Black text color for better contrast */
+}
+
+/* styles.css */
+.about-paragraph {
+    font-size: 3rem;  /* Adjust the size as needed */
+    line-height: 1.6;  /* Adjust line height for better readability */
+    margin: 20px 0;  /* Add some margin for spacing */
+}

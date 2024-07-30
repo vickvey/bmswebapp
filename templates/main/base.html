@@ -1,0 +1,24 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Management System</title>
+    <link rel="stylesheet" href="{% static 'css/materialize.min.css' %}">
+    <!-- Include your custom CSS -->
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}"> 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="{% static 'js/materialize.min.js' %}"></script>
+</head>
+<body>
+    {% include "main/nav.html" %}  
+
+    {% block content %} {% endblock %}
+
+    {% include "main/footer.html" %}  
+
+    {% block script %} {% endblock %}
+</body>
+</html>

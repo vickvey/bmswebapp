@@ -1,0 +1,15 @@
+{% load static %}
+<!-- Include your custom CSS -->
+<link rel="stylesheet" href="{% static 'css/styles.css' %}"> 
+
+<nav>
+  <div class="nav-wrapper outer-space">
+    <a href="{% url 'index' %}" class="brand-logo">ABC Bank</a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li><a href="{% url 'why' %}">Why ABC?</a></li>
+      <li><a href="{% url 'help' %}">Help</a></li>
+      <li><a href="{% url 'careers' %}">Careers</a></li>
+      <li><a href="{% url 'about_us' %}">About Us</a></li>
+    </ul>
+  </div>
+</nav>
