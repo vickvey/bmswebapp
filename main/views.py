@@ -28,3 +28,11 @@ def about_us(request):
     context = get_common_context()
     context['about_us'] = settings.DATA['ABOUT_US']
     return render(request, 'main/about_us.html', context)
+
+def addaccount(request):
+    context = get_common_context()
+    return render(request, 'main/addaccount.html', context)
+
+def login(request):
+    context = get_common_context()
+    return render(request, 'main/login.html', context)

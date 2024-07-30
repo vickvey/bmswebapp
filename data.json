@@ -1,5 +1,11 @@
 {
     "BANK_NAME": "ABC Bank",
+    "BANK_ADDRESS": "123 Main Street, Anytown, USA",
+    "BANK_LOGO": "",
+    "BANK_PHONE": "+1-800-123-4567",
+    "BANK_EMAIL": "abc@bank.co.in",
+
+    "ACC_NUM_LEN": 12,
     
     "WHY": "ABC Bank is committed to providing exceptional banking services with a focus on customer satisfaction and innovative solutions. Our dedication to transparency and integrity sets us apart in the financial industry.",
     

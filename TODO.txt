@@ -1,0 +1,1 @@
+Complete the work on addstudent page, you have written `models.py` and inside I have implemented Student model and now you have to learn and understand nav.bar, so you have to work upon `urls.py`, about_us.html
